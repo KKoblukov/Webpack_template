@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: $font-main;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: $font-main;
+}

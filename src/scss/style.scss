@@ -1,0 +1,29 @@
+// @import "~bootstrap/scss/bootstrap"
+// ~ - указывает, что файл лежит в папке node_modules
+@import './variables';
+@import './scaffolding';
+@import './typo';
+@import './mixins';
+@import './blocks/button';
+
+$font-stack: -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans',
+  'Helvetica Neue', sans-serif;
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: $font-stack;
+  #logo {
+    width: 10rem;
+  }
+  .container {
+    img {
+      width: 20rem;
+    }
+  }
+}
